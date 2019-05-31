@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Playfair Display SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Playfair Display SC Regular'), local('PlayfairDisplaySC-Regular'), url(https://fonts.gstatic.com/s/playfairdisplaysc/v7/ke85OhoaMkR6-hSn7kbHVoFf7ZfgMPr_lbkMFg.woff) format('woff');
+}
+@font-face {
+  font-family: 'Playfair Display SC';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Playfair Display SC Bold'), local('PlayfairDisplaySC-Bold'), url(https://fonts.gstatic.com/s/playfairdisplaysc/v7/ke80OhoaMkR6-hSn7kbHVoFf7ZfgMPr_nQIpBcwXKA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Playfair Display SC';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Playfair Display SC Black'), local('PlayfairDisplaySC-Black'), url(https://fonts.gstatic.com/s/playfairdisplaysc/v7/ke80OhoaMkR6-hSn7kbHVoFf7ZfgMPr_nTorBcwXKA.woff) format('woff');
+}

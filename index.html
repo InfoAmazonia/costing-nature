@@ -19,8 +19,8 @@
 <link rel='stylesheet' id='stag-shortcode-styles-css' href="wp-content/plugins/stagtools/assets/css/stag-shortcodesdbc2.css?ver=2.2.6" type='text/css' media='all' />
 <link rel='stylesheet' id='stag-google-fonts-css' href='css24f7.css?family=Playfair+Display%3Aregular%2Citalic%2C700&amp;subset=cyrillic%2Ccyrillic-ext%2Cdevanagari%2Cgreek%2Cgreek-ext%2Ckhmer%2Clatin%2Clatin-ext%2Cvietnamese&amp;ver=1.3.2' type='text/css' media='all' />
 <link rel='stylesheet' id='stag-style-css' href="wp-content/themes/PARALAXE/style9e1e.css?ver=1.3.2" type='text/css' media='all' />
-<script type="text/javascript" src="wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4"></script>
-<script type="text/javascript" src="wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1"></script>
+<script type="text/javascript" src="jquery/jquery.min.js"></script>
+<script type="text/javascript" src="jquery/jquery-migrate.min.js"></script>
 <meta name="generator" content="WordPress 4.9.7" />
 <link hreflang="en" href="en/index.html" rel="alternate" />
 <link hreflang="pt" href="pt/index.html" rel="alternate" />
@@ -170,19 +170,17 @@
     </style>
 
 
-<link rel="stylesheet" href="leaflet-0.7.2/leaflet.css" />
-<!--[if lte IE 8]><link rel="stylesheet" href="//cdn.leafletjs.com/leaflet-0.5.1/leaflet.ie.css" /><![endif]-->
-<link rel="stylesheet" href="ui/1.9.2/themes/base/jquery-ui.css" type="text/css">
-<link rel="stylesheet" href='mapbox.js/v2.1.6/mapbox.css' />
-<script type="text/javascript" src="leaflet-0.7.3/leaflet.js"></script>
-<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="ui/1.9.2/jquery-ui.js"></script>
-<script type="text/javascript" src="mapbox.js/v2.1.6/mapbox.js"></script>
-<script type="text/javascript" src="ajax/libs/jqueryui-touch-punch/0.2.2/jquery.ui.touch-punch.min.js"></script>
-<script src="d3.v3.min.js" type="8ca91ca2fcf251514a642ea9-"></script>
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@0.7.7/dist/leaflet.css" />
+		<link rel="stylesheet" href="jquery-ui/jquery-ui.css" type="text/css">
+		<link rel="stylesheet" href='https://api.mapbox.com/mapbox.js/v3.2.0/mapbox.css' />
+		<script type="text/javascript" src="https://unpkg.com/leaflet@0.7.7/dist/leaflet.js"></script>
+		<script type="text/javascript" src="jquery-ui/external/jquery/jquery.js"></script>
+		<script type="text/javascript" src="jquery-ui/jquery-ui.js"></script>
+		<script type="text/javascript" src="https://api.mapbox.com/mapbox.js/v3.2.0/mapbox.js"></script>
+		<script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
 
 
-<script type="8ca91ca2fcf251514a642ea9-">
+<script type="text/javascript">
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -275,7 +273,7 @@ transition: 1s ease opacity;
 <span id='csmi-ca7cecc5e85d7d9406d6466047957175' class='csmi csmi-bid-31 csmi-TreeCover'> <div>
 <div id="buttons_container" class="container"></div>
 <div id="treecovermap" class="map"></div>
-<script type="8ca91ca2fcf251514a642ea9-">
+<script type="text/javascript">
     var body = d3.select("body");
 
     function myColor(c) {
@@ -468,7 +466,7 @@ O Co$ting Nature, por sua vez, não incide exclusivamente sobre o desmatamento, 
 <span id='csmi-ffc001bba4f21c3015726704b2132905' class='csmi csmi-bid-13 csmi-CarbonServicesIndex'> <div>
 
 <div id="cindexmap1" class="map" style="height: 550px; width: 100%;"></div>
-<script type="8ca91ca2fcf251514a642ea9-">
+<script type="text/javascript">
     function myColor(c) {
     return c == 1  ? '#005ce6' :
            c == 2  ? '#007ae6' :
@@ -552,7 +550,7 @@ O Co$ting Nature, por sua vez, não incide exclusivamente sobre o desmatamento, 
 <p>Acontece que o ciclo ancestral por meio do qual as plantas absorvem carbono, produzem oxigênio e permitem a proliferação das várias formas de vida, está ameaçado. O Brasil é um dos grandes emissores do planeta e a maior parte de sua contribuição tem origem nas queimadas e desmatamento ilegal ocorridos na região Norte.</p>
 <p>Hoje já existem pesquisadores debruçados sobre o chamado gradiente florestal, que engloba os muitos cenários desse tipo de bioma: desde as intocadas florestas primárias, passando pelas áreas degradadas (por incêndios rasteiros ou exploração madeireira) e pelas matas secundárias (ou em regeneração), até chegar às porções com cultivos agrícolas. “Queremos entender qual é o valor de conservação de cada uma das partes desse mosaico”, explica a ecóloga Joice Ferreira, pesquisadora em serviços ambientais da Embrapa Amazônia e coordenadora brasileira da Rede Amazônia Sustentável (RAS).</p>
 <h1>Estoques de carbono na Amazônia</h1>
-<p><img class="alignnone size-full wp-image-155" src="https://costingnature.infoamazonia.org/wp-content/uploads/2015/05/cn-infographic-012.png" alt="cn-infographic-01" width="1280" height="455" srcset="https://costingnature.infoamazonia.org/wp-content/uploads/2015/05/cn-infographic-012.png 1280w, https://costingnature.infoamazonia.org/wp-content/uploads/2015/05/cn-infographic-012-300x107.png 300w, https://costingnature.infoamazonia.org/wp-content/uploads/2015/05/cn-infographic-012-1024x364.png 1024w" sizes="(max-width: 1280px) 100vw, 1280px" /></p>
+<p><img class="alignnone size-full wp-image-155" src="https://costingnature.infoamazonia.org/wp-content/uploads/2015/05/cn-infographic-012.png" alt="cn-infographic-01" width="1280" height="455" srcset="https://costingnature.infoamazonia.org/wp-content/uploads/2015/05/cn-infographic-012.png 1280w, https://costingnature.infoamazonia.org/wp-content/uploads/2015/05/cn-infographic-012-300x107.png 300w" sizes="(max-width: 1280px) 100vw, 1280px" /></p>
 <p>Estudos e análises desse tipo ganham destaque por mais um fator: a degradação florestal é difícil de ser monitorada. Enquanto o desmatamento pode ser visualizado por imagens de satélite, as áreas degradadas, ainda que camufladas pela floresta em pé, tem sua capacidade de prover os serviços ecossistêmicos prejudicada. O fogo raso, por exemplo, &#8220;tem causado impactos negativos no aprisionamento de carbono&#8221;, detalha Joice Ferreira. Para piorar, a enorme quantidade de emissões de carbono originadas pela degradação (o equivalente a 40% do total emitido pelo desmatamento) não consta nos cálculos oficiais publicados pelo governo brasileiro.</p>
 <p>Em sentido geral, uma floresta primária intacta armazena mais dióxido de carbono do que uma área degradada. Nem todo o &#8220;verde&#8221; é bom para a biodiversidade: &#8220;A monocultura (eucalipto ou óleo de palma) pode ter altos níveis de carbono, mas não um bom valor de conservação&#8221;, disse Joyce Ferreira.</p>
 </div>
@@ -606,12 +604,6 @@ Fonte: <a href="https://www.policysupport.org/costingnature" title="Co$ting Natu
 </div>
 <script type="text/javascript" defer src="wp-content/plugins/stagtools/assets/js/fontawesome-all.minaaf9.js?ver=5.0.8"></script>
 <script type="text/javascript" defer src="wp-content/plugins/stagtools/assets/js/fa-v4-shims.minaaf9.js?ver=5.0.8"></script>
-<script type="text/javascript">
-/* <![CDATA[ */
-var StagFitvidsCustomSelectors = {"customSelector":"iframe[src*='www.viddler.com'],iframe[src*='money.cnn.com'],iframe[src*='www.educreations.com'],iframe[src*='\/\/blip.tv'],iframe[src*='\/\/embed.ted.com'],iframe[src*='\/\/www.hulu.com']"};
-var postSettings = {"ajaxurl":"https:\/\/costingnature.infoamazonia.org\/wp-admin\/admin-ajax.php","nonce":"e8a3578b2a","category":"","search":""};
-/* ]]> */
-</script>
 <script type="text/javascript" src="wp-content/themes/PARALAXE/assets/js/jquery.custom.min9e1e.js?ver=1.3.2"></script>
 <script type="text/javascript" src="wp-content/themes/PARALAXE/assets/js/plugins9e1e.js?ver=1.3.2"></script>
 <script type="text/javascript" src="wp-content/themes/PARALAXE/assets/js/lib/fitvids/jquery.fitvids.minc64e.js?ver=1.1.1"></script>
